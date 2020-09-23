@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2020-09-23T02:15:09.181Z
+date: 2020-09-23T02:15:19.545Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-18T19:13:46.176Z
@@ -11,10 +11,6 @@ dateCreated: 2020-09-18T19:13:46.176Z
 # FoundryVTT Community Wiki
 
 Welcome to the Foundry VTT Community wiki! We accept submissions to the offical Wiki via Pull Requests on this repo!
-
-If you are adding a page, please note that the title of the page is determined by
-the file name. Hyphens in the file names will become spaces in the titles of the
-pages. Refer to existing files as examples of the naming convention.
 
 **NOTE** : This wiki serves as a repository of community-curated information about the Foundry VTT and is 100% community-managed and run. We do not represent Foundry Gaming LLC in any way.
 
