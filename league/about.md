@@ -1,14 +1,12 @@
 ---
-title: About The League
+title: League of FoundryVTT Developers
 description: 
 published: true
-date: 2020-09-21T21:30:25.459Z
+date: 2020-09-23T02:20:11.499Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-21T20:52:48.566Z
 ---
 
-# Header
-Your content here
-
-I have edited this page.
+# League of FoundryVTT Developers
+Information about the League of FoundryVTT Developers
