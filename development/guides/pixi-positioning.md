@@ -1,8 +1,8 @@
 ---
-title: PIXI Positioning
+title: PIXI
 description: 
 published: true
-date: 2020-09-23T07:01:33.581Z
+date: 2020-09-23T07:02:21.762Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T07:01:33.581Z
