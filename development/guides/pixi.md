@@ -2,7 +2,7 @@
 title: PIXI
 description: 
 published: true
-date: 2020-09-23T07:07:31.104Z
+date: 2020-09-23T07:08:08.458Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T07:01:33.581Z
@@ -117,10 +117,10 @@ g.visible = true;
 You can also set the alpha, which is a fancy way of saying "make it see through". With alpha, a value of 1 means fully opaque, while 0 is fully see through. Try this:
 
 ```js
-g.alpha = 0.5;
+g.alpha = 0.3;
 ```
 ```js
-g.alpha = 0.2;
+g.alpha = 0.7;
 ```
 
 Lastly, let's try setting the rotation.
