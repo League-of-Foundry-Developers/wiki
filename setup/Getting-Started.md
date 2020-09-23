@@ -2,7 +2,7 @@
 title: Getting Started
 description: 
 published: true
-date: 2020-09-23T02:30:34.470Z
+date: 2020-09-23T02:31:00.913Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T00:26:04.779Z
@@ -17,7 +17,7 @@ Foundry is available via your user profile page on [https://foundryvtt.com](http
 
 You will need to decide how you would like to host your foundry install, but there are 3 common setups: Self Hosted, Cloud Hosted and Partner Hosted. An [overview of these options](https://foundryvtt.com/article/hosting/) is available on the official site.
 
-Once you have decided how you would like to host FoundryVTT, you should check the install guide for your set. We have a variety of [Setup Guides](/setup/hosting/Getting-Started) for various cloud and self hosted options.
+Once you have decided how you would like to host FoundryVTT, you should check the install guide for your set. We have a variety of [Setup Guides](/setup/hosting) for various cloud and self hosted options.
 
 ## Connecting
 Foundry VTT is a self-hosted platform. This means that somebody is hosting a game on a server that they own or operate or rent. If you are not this person, you will need to contact the host for connection information. You will need an **IP & Port Number** or a **Domain Name**.
