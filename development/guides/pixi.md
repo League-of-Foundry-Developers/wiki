@@ -2,7 +2,7 @@
 title: PIXI
 description: 
 published: true
-date: 2020-09-23T07:09:39.506Z
+date: 2020-09-23T07:13:26.004Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T07:01:33.581Z
@@ -149,3 +149,13 @@ g.angle = 45;
 ```
 
 Now your square should be rotating around it's center point instead of a corner, excellent.
+
+## Containers
+## Coordinates
+- ### Translating coordinates from global to local
+- ### Mouse position
+## Sprites
+## Masks
+## Renderer
+## Ticker & Animation
+## Collision
