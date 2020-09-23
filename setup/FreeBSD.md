@@ -1,11 +1,11 @@
 ---
 title: FreeBSD
-description:
+description: 
 published: true
-date: 2020-09-21T22:20:53.450Z
-tags:
-editor: undefined
-dateCreated: 2020-09-18T19:13:46.176Z
+date: 2020-09-23T02:33:14.926Z
+tags: 
+editor: markdown
+dateCreated: 2020-09-23T00:25:57.469Z
 ---
 
 # Base install directly on FreeBSD, not for NAS
