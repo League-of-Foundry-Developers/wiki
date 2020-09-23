@@ -2,16 +2,13 @@
 title: Home
 description: 
 published: true
-date: 2020-09-23T02:15:19.545Z
+date: 2020-09-23T02:46:35.916Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-18T19:13:46.176Z
 ---
 
 # FoundryVTT Community Wiki
-
-Welcome to the Foundry VTT Community wiki! We accept submissions to the offical Wiki via Pull Requests on this repo!
-
 **NOTE** : This wiki serves as a repository of community-curated information about the Foundry VTT and is 100% community-managed and run. We do not represent Foundry Gaming LLC in any way.
 
 ## Official Resources
