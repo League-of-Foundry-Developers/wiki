@@ -1,5 +1,5 @@
 ---
-title: Importing a-.JS-file-in-Foundry.md
+title: Importing a-.JS-file-in-Foundry
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

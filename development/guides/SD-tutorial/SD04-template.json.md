@@ -1,5 +1,5 @@
 ---
-title: SD04 template.json.md
+title: SD04 template.json
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

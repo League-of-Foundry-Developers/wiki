@@ -1,5 +1,5 @@
 ---
-title: System Development-Part-5-Wandering-in-000000.md
+title: System Development-Part-5-Wandering-in-000000
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

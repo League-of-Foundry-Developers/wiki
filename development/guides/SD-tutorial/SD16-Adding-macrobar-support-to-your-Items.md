@@ -1,5 +1,5 @@
 ---
-title: SD16 Adding-macrobar-support-to-your-Items.md
+title: SD16 Adding-macrobar-support-to-your-Items
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

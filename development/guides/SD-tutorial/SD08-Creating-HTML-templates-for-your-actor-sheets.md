@@ -1,5 +1,5 @@
 ---
-title: SD08 Creating-HTML-templates-for-your-actor-sheets.md
+title: SD08 Creating-HTML-templates-for-your-actor-sheets
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

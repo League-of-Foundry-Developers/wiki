@@ -1,5 +1,5 @@
 ---
-title: DigitalOcean Initialization-Script.md
+title: DigitalOcean Initialization-Script
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

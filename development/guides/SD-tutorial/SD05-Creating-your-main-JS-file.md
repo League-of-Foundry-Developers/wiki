@@ -1,5 +1,5 @@
 ---
-title: SD05 Creating-your-main-JS-file.md
+title: SD05 Creating-your-main-JS-file
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

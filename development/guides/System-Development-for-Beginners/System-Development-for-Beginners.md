@@ -1,5 +1,5 @@
 ---
-title: System Development-for-Beginners.md
+title: System Development-for-Beginners
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

@@ -1,5 +1,5 @@
 ---
-title: SD07 Extending-the-ActorSheet-class.md
+title: SD07 Extending-the-ActorSheet-class
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

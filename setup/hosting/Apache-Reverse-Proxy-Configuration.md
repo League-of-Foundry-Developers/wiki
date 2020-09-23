@@ -1,5 +1,5 @@
 ---
-title: Apache Reverse-Proxy-Configuration.md
+title: Apache Reverse-Proxy-Configuration
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

@@ -1,5 +1,5 @@
 ---
-title: Combat Tracker.md
+title: Combat Tracker
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

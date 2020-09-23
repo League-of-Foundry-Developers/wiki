@@ -1,5 +1,5 @@
 ---
-title: Self hosted-Local.md
+title: Self hosted-Local
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

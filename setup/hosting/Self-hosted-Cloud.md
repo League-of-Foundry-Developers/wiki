@@ -1,5 +1,5 @@
 ---
-title: Self hosted-Cloud.md
+title: Self hosted-Cloud
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

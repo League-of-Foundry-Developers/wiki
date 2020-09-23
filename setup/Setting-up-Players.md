@@ -1,5 +1,5 @@
 ---
-title: Setting up-Players.md
+title: Setting up-Players
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

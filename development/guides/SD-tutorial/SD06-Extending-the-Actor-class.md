@@ -1,5 +1,5 @@
 ---
-title: SD06 Extending-the-Actor-class.md
+title: SD06 Extending-the-Actor-class
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

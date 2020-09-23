@@ -1,5 +1,5 @@
 ---
-title: System Development-Tutorial-Start-to-Finish.md
+title: System Development-Tutorial-Start-to-Finish
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

@@ -1,5 +1,5 @@
 ---
-title: System Development-Part-3-Breaking-Everything.md
+title: System Development-Part-3-Breaking-Everything
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

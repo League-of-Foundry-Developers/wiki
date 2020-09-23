@@ -1,5 +1,5 @@
 ---
-title: API.md
+title: API
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z

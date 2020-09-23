@@ -1,5 +1,5 @@
 ---
-title: SD02 Stuff-to-be-aware-of.md
+title: SD02 Stuff-to-be-aware-of
 description:
 published: true
 date: 2020-09-21T22:20:53.450Z
