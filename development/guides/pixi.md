@@ -2,7 +2,7 @@
 title: PIXI
 description: 
 published: true
-date: 2020-09-23T07:02:53.156Z
+date: 2020-09-23T07:05:07.894Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T07:01:33.581Z
@@ -18,7 +18,7 @@ FoundryVTT draws WebGL graphics to an HTML5 Canvas element, which is drawn such 
 
 ## The Major PIXI Elements
 
-The canvas contains an instance of of PIXI.Application 
+The canvas contains an instance of PIXI.Application 
 ```js
 canvas.app
 ```
