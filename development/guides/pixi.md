@@ -2,7 +2,7 @@
 title: PIXI
 description: 
 published: true
-date: 2020-09-23T07:08:08.458Z
+date: 2020-09-23T07:09:39.506Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T07:01:33.581Z
@@ -137,7 +137,7 @@ Let's fix that by setting the `angle` property instead:
 g.angle = 45;
 ```
 
-Now your square should be nicely rotated to 45 degrees. But you might have noticed that your square rotated from the top left corner. That's because when you draw a square, the anchor, or pivot point, of the graphic begins wherever you draw from, in this case we started at 0,0 and drew the square down and right (positive height and width).
+Now your square should be nicely rotated to 45 degrees. But you might have noticed that your square rotated from the top left corner. That's because when you draw a square the pivot point of the graphic begins wherever you draw from, in this case we started at 0,0 and drew the square down and right (positive height and width), so our pivot is the top left corner until we say otherwise.
 
 Lets make our square straight again, then we'll change the pivot point of the graphic and see how it that affects rotation.
 
