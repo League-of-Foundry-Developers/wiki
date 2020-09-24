@@ -2,7 +2,7 @@
 title: PIXI
 description: 
 published: true
-date: 2020-09-24T22:26:07.187Z
+date: 2020-09-24T22:27:57.085Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T07:01:33.581Z
@@ -12,9 +12,9 @@ dateCreated: 2020-09-23T07:01:33.581Z
 This guide is intended to be a crash course in how to draw things on the canvas in FoundryVTT using PIXI.
 
 ## Basic Concepts
-Foundry uses the powerful PIXI graphics library, and most of the time you will manipulate graphics through this interface, although if needed you should be aware that PIXI will allow you to dive deep and modify native WebGL elements directly if required, though this is generally more complex than working with the easy to use PIXI library.
+Foundry uses the powerful PIXI graphics library, and most of the time you will manipulate elements on the canvas through this interface, although if needed you should be aware that PIXI will allow you to dive deep and modify native WebGL elements directly if required.
 
-FoundryVTT draws WebGL graphics to an HTML5 Canvas element, which is drawn such that it covers the screen. The canvas element itself is part of the HTML DOM tree but almost everything within it (except UI elements such as HUD) are not and you cannot access them as HTML elements. You can access the HTML Canvas element at $('#board') if needed but it is rarely necessary.
+FoundryVTT draws WebGL graphics to an HTML5 Canvas element, which is drawn such that it covers the screen. The canvas element itself is part of the HTML DOM tree but almost everything within it (except UI elements such as HUD) are not and you cannot access them as HTML elements. You can access the HTML Canvas element at `$('#board')` if needed but it is rarely necessary.
 
 ## The Major PIXI Elements
 
