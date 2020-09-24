@@ -2,7 +2,7 @@
 title: PIXI
 description: 
 published: true
-date: 2020-09-23T07:14:00.197Z
+date: 2020-09-24T21:45:09.527Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T07:01:33.581Z
@@ -88,7 +88,7 @@ Then we began drawing a fill, and told PIXI what color to draw. `0x0000DD` is a 
 
 Next, we told PIXI what kind of shape to draw and how large. In this case, we specified to draw a rectangle at position x: 0, y: 0, or in other words at the top left corner. In PIXI x & y almost always refer to the top left corner of the current container as 0,0. The 200's tell pixi to draw the square 200 units in width and height, respectively.
 
-Lastly, we told PIXI we were done drawing our shape. We could have drawn more shapes to this Graphic, but for now we'll keep it simple and leave it at a circle.
+Lastly, we told PIXI we were done drawing our shape. We could have drawn more shapes to this Graphic, but for now we'll keep it simple and leave it at a single square.
 
 Now we want our square to actually show up on the canvas. To do that, we'll have to tell PIXI what Container should hold our graphic. In this case, let's just draw it directly to the stage for simplicity, although in FoundryVTT you should usually draw things to a Layer instead.
 
@@ -105,7 +105,7 @@ g.y = 120;
 
 What happens if you set the x and y to a negative value? Try it and find out, just remember that if you set these values too large your square may disappear off the screen!
 
-Try making your square visible, then bringing it back again like so:
+Try making your square invisible, then bringing it back again like so:
 
 ```js
 g.visible = false;
