@@ -2,7 +2,7 @@
 title: PIXI
 description: 
 published: true
-date: 2020-09-24T21:47:52.380Z
+date: 2020-09-24T22:26:07.187Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-23T07:01:33.581Z
@@ -18,7 +18,7 @@ FoundryVTT draws WebGL graphics to an HTML5 Canvas element, which is drawn such 
 
 ## The Major PIXI Elements
 
-The canvas contains an instance of PIXI.Application 
+The canvas contains an instance of [`PIXI.Application`](https://pixijs.download/dev/docs/PIXI.Application.html) 
 ```js
 canvas.app
 ```
@@ -45,7 +45,7 @@ In FoundryVTT, almost all elements drawn to the canvas will be contained within 
 
 The Layers are children of canvas.app.stage, and can be located at `canvas.app.stage.children` however for convenience you can access them at `canvas.layers` as well.
 
-Layers tend to be instances of (or extended from) `CanvasLayer` or `PlaceablesLayer`. For now, just know that all layers are in fact `PIXI.Containers` with extra properties added but otherwise behave exactly like the `PIXI.Containers` we will be using below.
+Layers tend to be instances of (or extended from) [`CanvasLayer`](https://foundryvtt.com/api/CanvasLayer.html) or [`PlaceablesLayer`](https://foundryvtt.com/api/PlaceablesLayer.html). For now, just know that all layers are in fact just [`PIXI.Container`](https://pixijs.download/dev/docs/PIXI.Container.html) with extra properties added but otherwise behave exactly like the [`PIXI.Container`](https://pixijs.download/dev/docs/PIXI.Container.html) we will be using below.
 
 As of FoundryVTT 0.6.x there are 13 default layers, although modules can add more. These are, in order from lowest to highest:
 
@@ -82,7 +82,7 @@ g.drawRect(0, 0, 200, 200);
 g.endFill();
 ```
 
-You will probably notice that nothing has happened. That's normal, as we haven't told PIXI how to add this graphic to our scene yet. But first, let's cover what we have done. In the first line, we create a new instance of PIXI.Graphics and save a reference to it as `g` so we can use it later.
+You will probably notice that nothing has happened. That's normal, as we haven't told PIXI how to add this graphic to our scene yet. But first, let's cover what we have done. In the first line, we create a new instance of [`PIXI.Graphics`](https://pixijs.download/dev/docs/PIXI.Graphics.html) and save a reference to it as `g` so we can use it later.
 
 Then we began drawing a fill, and told PIXI what color to draw. `0x0000DD` is a hexadecimal representation of a shade of blue.
 
