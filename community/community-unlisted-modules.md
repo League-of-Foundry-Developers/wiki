@@ -2,7 +2,7 @@
 title: Community Unlisted Modules
 description: 
 published: true
-date: 2020-09-25T17:59:23.142Z
+date: 2020-09-25T18:10:18.724Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-25T02:02:48.214Z
@@ -20,16 +20,11 @@ Foundry modules that work across all or most systems are noted here. These may i
 
 ## Create Actors from Folder
 * **Author**: _cody#4113 on Discord
-* **Version**: 0.2.0
 * **Foundry VTT Compatibility**: 0.5.0+
-* **System Compatibility (If applicable)**: N/A
-* **Module Requirement(s)**: N/A
-* **Module Conflicts**: N/A
-* **Translation Support**: EN (full)
+* **System Compatibility (If applicable)**: Universal
 
-### Link(s) to Module
-* [https://github.com/crobibero/fvtt-create-actors-from-folder](https://github.com/crobibero/fvtt-create-actors-from-folder)
-* [https://raw.githubusercontent.com/crobibero/fvtt-create-actors-from-folder/master/module.json](https://raw.githubusercontent.com/crobibero/fvtt-create-actors-from-folder/master/module.json)
+### Link to Module
+* [Project](https://github.com/crobibero/fvtt-create-actors-from-folder)
 
 ### Description
 Recursivly creates actors from images in specified folder
@@ -39,14 +34,10 @@ Recursivly creates actors from images in specified folder
 ## FFG Roller
 
 * **Author**: Petep, @petep#0441 on Discord
-* **Version**: 0.2
 * **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility (If applicable)**: Universal, but you'll want to probably use it with the simple system
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
 
-### Link(s) to Module
+### Link to Module
 * [https://github.com/petepeg/FFG-Roller](https://github.com/petepeg/FFG-Roller)
 
 ### Description
@@ -57,14 +48,11 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 ## Foundry Pin
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 2.0
 * **Foundry VTT Compatibility**: 0.4.4+
-* **Translation Support**: N/A
+* **System Compatibility (If applicable)**: Universal
 
 ### Link to Module
-
 * [https://bitbucket.org/Fyorl/foundry-pin](https://bitbucket.org/Fyorl/foundry-pin)
-* [https://bitbucket.org/Fyorl/foundry-pin/raw/master/module.json](https://bitbucket.org/Fyorl/foundry-pin/raw/master/module.json)
 
 ### Description
 
@@ -75,22 +63,11 @@ Allows the user to pin windows which will be re-opened automatically the next ti
 ## Grape-Hud
 
 * **Author**: grape_juice#2539 on Discord, support on [Patreon](https://www.patreon.com/foundry_grape_juice).
-* **Version**: 0.0.10
 * **Foundry VTT Compatibility**: 0.6.0+
 * **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
 
-### Link(s) to Module
+### Link to Module
 * [https://gitlab.com/jesusafier/grape-hud](https://gitlab.com/jesusafier/grape-hud) 
-* [https://gitlab.com/jesusafier/grape-hud/-/jobs/artifacts/master/raw/module.json?job=build-module
-](
-https://gitlab.com/jesusafier/grape-hud/-/jobs/artifacts/master/raw/module.json?job=build-module
-) 
-
-![](https://i.imgur.com/g3K34hm.gif)
-![](https://i.imgur.com/RhLdrKl.gif)
 
 ### Description
 
@@ -107,16 +84,11 @@ Currently has the following features:
 ## Grape_Juice - Manual Roll
 
 * **Author**: grape_juice#2539 on Discord, support on [Patreon](https://www.patreon.com/foundry_grape_juice).
-* **Version**: 0.0.2
 * **Foundry VTT Compatibility**: pre 0.7.x
 * **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
 
-### Link(s) to Module
+### Link to Module
 * [https://gitlab.com/fusafier/grape_juice-manual-roll](https://gitlab.com/jesusafier/grape_juice-manual-roll) 
-* [https://gitlab.com/jesusafier/grape_juice-manual-roll/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/jesusafier/grape_juice-manual-roll/-/jobs/artifacts/master/raw/module.json?job=build-module) 
 
 ### Description
 Just a proof-of-concept for hooking into the roll system on pre 0.7.x
@@ -128,15 +100,11 @@ Enabling the module will cause any roll you attempt to make open up a prompt tha
 ## Haste
 
 * **Author**: grape_juice#2539 on Discord, support on [Patreon](https://www.patreon.com/foundry_grape_juice).
-* **Version**: 0.4.9
 * **Foundry VTT Compatibility**: 0.6.0+
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN
+* **System Compatibility (If applicable)**: Universal
 
-### Link(s) to Module
-* [https://gitlab.com/jesusafier/haste](https://gitlab.com/jesusafier/haste) 
-* [https://gitlab.com/jesusafier/haste/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/jesusafier/haste/-/jobs/artifacts/master/raw/module.json?job=build-module)
+### Link to Module
+* [https://gitlab.com/jesusafier/haste](https://gitlab.com/jesusafier/haste)
 
 
 ### Description
@@ -150,16 +118,11 @@ An experimental performance enhancement tweak modules for FoundryVTT it has 2 fe
 ## Infinite Folders
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.3.1
 * **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: This module creates folders and allows you to create data where it shouldn't be. If a future FVTT update enforces the 2-depth limit on the server side, then all of the deeper folders and their content may be lost.
-* **Translation Support**: EN (full)
 
-### Link(s) to Module
+### Link to Module
 * [https://github.com/kakaroto/fvtt-module-infinite-folders](https://github.com/kakaroto/fvtt-module-infinite-folders)
-* [https://raw.githubusercontent.com/kakaroto/fvtt-module-infinite-folders/master/infinite_folders/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-infinite-folders/master/infinite_folders/module.json)
 
 ### Description
 This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
@@ -169,16 +132,11 @@ This Foundry VTT module allows you to create infinite depth of folders for Scene
 ## Image Drop
 
 * **U~man**: U~man#2374, contributions are welcome on core features, translations and new templates
-* **Version**: 0.0.1
 * **Foundry VTT Compatibility**: 0.5.0
 * **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known
-* **Translation Support**: Not applicable
 
-### Link(s) to Module
+### Link to Module
 * [https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop](https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop)
-* [https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop/-/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop/-/raw/master/module.json)
 
 ### Description
 Allows dropping images from journal entries to the canvas as tiles.
@@ -188,40 +146,25 @@ Allows dropping images from journal entries to the canvas as tiles.
 ## Image Previewer
 
 * **Author**: Felix#6196 on Discord, accepts donations via paypal, felix.mueller.86@web.de
-* **Version**: 0.4
 * **Foundry VTT Compatibility**: 0.4.4+
-* **System Compatibility (If applicable)**: universal
-* **Module Requirement(s)**: none
-* **Module Conflicts**: none
-* **Translation Support**: EN (full)
+* **System Compatibility (If applicable)**: Universal
 
-### Link(s) to Module
+### Link to Module
 * [https://github.com/syl3r86/image-previewer](https://github.com/syl3r86/image-previewer)
-* [https://raw.githubusercontent.com/syl3r86/image-previewer/master/module.json](https://raw.githubusercontent.com/syl3r86/image-previewer/master/module.json)
 
 ### Description
 A little app to preview images on hover in the file picker menu.
-#### Installation
-1. Download the image-previewer.zip
-2. Unzip it into FoundryVTT/resources/app/public/modules
-3. Restart Foundry if it was running.
-4. Enable the module in the Module Configuration
 
 ---
 
 ## Lancer Condition Icons
 
 * **Author**: Eranziel#0410 on Discord
-* **Version**: 0.2.1
 * **Foundry VTT Compatibility**: 0.5.x+
-* **System Compatibility (If applicable)**: universal
-* **Module Requirement(s)**: none
-* **Module Conflicts**: none
-* **Translation Support**: EN (full)
+* **System Compatibility (If applicable)**: Universal
 
-### Link(s) to Module
+### Link to Module
 * [https://github.com/Eranziel/lancer-conditions](https://github.com/Eranziel/lancer-conditions)
-* [https://github.com/Eranziel/lancer-conditions/raw/master/module.json](https://github.com/Eranziel/lancer-conditions/raw/master/module.json)
 
 ### Description
 Adds a variety of condition/status icons for tokens, which are the wonderful work of Cancermantis and Hayley on the Lancer Discord (Pilot.NET). Aimed at Lancer, but not restricted to that system. Includes per-world settings to either keep or replace the stock Foundry status icons, and to select which sub-set(s) of icons from this module to enable.
@@ -231,16 +174,11 @@ Adds a variety of condition/status icons for tokens, which are the wonderful wor
 ## Scaled Labels
 
 * **Author**: imposeren#3557 on Discord
-* **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.5.5+
 * **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: May conflict with other modules that override `Token.prototype._drawNameplate`, or `Ruler.prototype._onAddWaypoint`
-* **Translation Support**: EN (full)
 
-### Link(s) to Module
+### Link to Module
 * [foundry-scaled-labels on bitbucket](https://bitbucket.org/imposeren/foundry-scaled-labels)
-* [module.json](https://bitbucket.org/imposeren/foundry-scaled-labels/raw/master/module.json)
 
 ### Description
 Scale labels of rulers and token nameplates when zoomed-out.
@@ -250,11 +188,11 @@ Scale labels of rulers and token nameplates when zoomed-out.
 ## SVG Loader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Translation Support**: EN (full)
 * **Foundry VTT Compatibility**: 0.3+
-### Link(s) to Module
+* **System Compatibility (If applicable)**: Universal
+
+### Link to Module
 * [https://gitlab.com/moerills-fvtt-modules/svg-loader](https://gitlab.com/moerills-fvtt-modules/svg-loader)
-* [https://gitlab.com/moerills-fvtt-modules/svg-loader/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/svg-loader/raw/master/module.json)
 
 ### Description
 This module allows to load walls, lights and sources through .svg files, provided e.g. by DungeonFog.
@@ -271,15 +209,11 @@ Foundry modules that work within Dungeons and Dragons 5th Edition are noted here
 ## MyBeyond-Theme
 
 * **Author**: Frederik Eschmann (Aylas#4838 on Discord; FreddyEs on GitHub)
-* **Version**: 1.0.0 (2020-02-09)
 * **Foundry VTT Compatibility**: 0.4.5+
 * **System Compatibility (If applicable)**: D&D 5e v0.81+
-* **Module Requirement(s)**: None
-* **Module Conflicts**: overrites default character sheet styles, may cause issues with other character sheets
 
-### Link(s) to Module
+### Link to Module
 * [https://fvtt-modules.eschmann.online/](https://fvtt-modules.eschmann.online/)
-* [https://fvtt-modules.eschmann.online/mybeyond-theme/module.json](https://fvtt-modules.eschmann.online/mybeyond-theme/module.json)
 
 ### Description
 A simple css overwrite that brings the character sheet into a DnDBeyond like style without changing the function of the character sheet.
@@ -290,14 +224,10 @@ Note: In Version 1.0.0, this module will also add styles for the ChatLog Message
 ## Roll20 Converter
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.8.8
 * **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition, Universal
-* **Module Requirement(s)**: None in Foundry, though module requires a campaign exported from Roll20 using KaKaRoTo’s export tool.
-* **Module Conflicts**: None known.
-* **Translation Support**: EN (full)
 
-### Link(s) to Module
+### Link to Module
 * The module is paywalled, and requires subscribing to KaKaRoTo’s [Patreon](https://www.patreon.com/kakaroto).
 
 ### Description 
@@ -310,16 +240,11 @@ Bear in mind that exporting a campaign from Roll20 may violate the EULA.
 ## Summoner
 
 * **Author**: Jon Whitehouse Discord@MTGCarver#7753
-* **Version**: 0.1.1
 * **Foundry VTT Compatibility**: 0.6.0
 * **System Compatibility (If applicable)**: DnD5e
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: None
 
-### Link(s) to Module
-* https://github.com/Jonwh25/summoner
-* https://raw.githubusercontent.com/Jonwh25/summoner/master/module.json
+### Link to Module
+* [https://github.com/Jonwh25/summoner](https://github.com/Jonwh25/summoner)
 
 ### Description
 This FoundryVTT Module adds a simple compendium pack to help with DnD5e spells that summon creatures. It is nothing fancy. My players were casting find familiar and I tried to use the npc creatures that are in the DnD5e system and it wasn't working. So all I did was create actor/player types for each creature they could summon.
@@ -342,19 +267,14 @@ Foundry modules that work within GURPS 4th Edition are noted here. These may inc
 ## GURPSModule
 
 * **Author**: Kalos#9376 on Discord
-* **Version**: 0.2
 * **Foundry VTT Compatibility**: 0.4.5
-* **System Compatibility (If applicable)**: Universal (unless any others rewrite the ruler label!)
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None.
-* **Translation Support**: English
+* **System Compatibility (If applicable)**: Universal
 
-### Link(s) to Module
-* [https://github.com/kalminos/GURPSmodule](https://github.com/kalminos/GURPSmodule) 
-* [https://raw.githubusercontent.com/kalminos/GURPSmodule/master/module.json](https://raw.githubusercontent.com/kalminos/GURPSmodule/master/module.json) 
+### Link to Module
+* [https://github.com/kalminos/GURPSmodule](https://github.com/kalminos/GURPSmodule)
 
 ### Description
-This mod changes the foundry ruler label to print out the GURPS range modifier from the size speed and range table. There are also some chat commands to roll on rolltables for hit location (off the grand unified hit location table), range, size modifier, fear results, critical hits, malfunctions, and more. Type in !ghelp into the chat for a bit of help. 
+This mod changes the foundry ruler label to print out the GURPS range modifier from the size speed and range table. There are also some chat commands to roll on rolltables for hit location (off the grand unified hit location table), range, size modifier, fear results, critical hits, malfunctions, and more. Type in !ghelp into the chat for a bit of help.
 
 ---
 
@@ -364,16 +284,11 @@ Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are note
 ## Arcane Marks & Careers
 
 * **Author**: Moo Man#7518 on Discord
-* **Version**: 1.2.4
 * **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility**: Warhammer Fantasy Roleplay 4th Edition.
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
 
-### Link(s) to Module
+### Link to Module
 * [https://github.com/moo-man/Arcane-Marks-Careers-FVTT](https://github.com/moo-man/Arcane-Marks-Careers-FVTT)
-* [https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/master/module.json](https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/master/module.json)
 
 ### Description
 [This homebrew](https://drive.google.com/file/d/1uTy2r0EDMdcISFqqyxeIOSadtzz-OTAg/view) supplement I made adds Lore specific careers and marks for WFRP4e. 
@@ -388,14 +303,11 @@ Once installed, you'll find the careers in the Arcane Careers Compendium, and yo
 ## Rough Nights & Hard Days
 
 * **Author**: Jagusti#3610
-* **Version**: 0.7
 * **Foundry VTT Compatibility**: 0.4.5+
 * **System Compatibility**: WFRP4e 0.9.0+
-* **Module Conflicts**: Any module that changes (rather than extends) the species or career tables
 
-### Link(s) to Module
-* https://github.com/Jagusti/fvtt-wfrp4e-rnhd/
-* `https://raw.githubusercontent.com/Jagusti/fvtt-wfrp4e-rnhd/master/module.json`
+### Link to Module
+* [https://github.com/Jagusti/fvtt-wfrp4e-rnhd/](https://github.com/Jagusti/fvtt-wfrp4e-rnhd/)
 
 ### Description
 
@@ -409,11 +321,12 @@ Once installed, you'll find the careers in the Arcane Careers Compendium, and yo
 * **Foundry VTT Compatibility**: 0.4.5+
 * **System Compatibility**: WFRP4e 0.9.0+
 * **Module Conflicts**: N/A
+
 ### Description
 This module adds the 'Slashing' weapon quality as well as the expanded weapons from [The Ratter Vol. 1 Issue 2](https://indd.adobe.com/view/763c1883-228a-455f-a115-19f4059f4589)
-### Link(s) to Module
-* https://github.com/DasSauerkraut/wfrp-gwmwg
-* Manifest: https://raw.githubusercontent.com/DasSauerkraut/wfrp-gwmwg/master/module.json
+
+### Link to Module
+* [https://github.com/DasSauerkraut/wfrp-gwmwg](https://github.com/DasSauerkraut/wfrp-gwmwg)
 
 ---
 
