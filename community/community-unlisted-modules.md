@@ -2,7 +2,7 @@
 title: Community Unlisted Modules
 description: 
 published: true
-date: 2020-09-25T17:07:38.535Z
+date: 2020-09-25T17:59:23.142Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-25T02:02:48.214Z
@@ -10,25 +10,11 @@ dateCreated: 2020-09-25T02:02:48.214Z
 
 Get Modules for Foundry VTT on the official site: [https://foundryvtt.com/packages/](https://foundryvtt.com/packages/)
 
-The list below is an unofficial list of unlisted game modules.
+The list below is an unofficial and incomplete list of unlisted game modules.
 
 # Foundry VTT Modules (Universal)
 
 Foundry modules that work across all or most systems are noted here. These may include reskins, general improvement mods, and more.
-
----
-
-## Chat Autoloader
-
-* **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Translation Support**: EN (full)
-* **Foundry VTT Compatibility**: 0.4.1
-### Link(s) to Module
-* [https://gitlab.com/moerills-fvtt-modules/chat-autoloader](https://gitlab.com/moerills-fvtt-modules/chat-autoloader)
-* [https://gitlab.com/moerills-fvtt-modules/chat-autoloader/raw/master/chat-autoloader/module.json](https://gitlab.com/moerills-fvtt-modules/chat-autoloader/raw/master/chat-autoloader/module.json)
-
-### Description
-This module improves loading times by only rendering the last few chat messages at page load. Older messages will automatically get rendered while scrolling to the top. (This behavior is similar to e.g. scrolling in Discords chat)
 
 ---
 
@@ -158,6 +144,25 @@ An experimental performance enhancement tweak modules for FoundryVTT it has 2 fe
 
 - Wall fix - patches the FOW LOS FOV calculation to be much more efficient using spatial grid calculations. Big words that mean performance is basically unchanged when running 4000+ walls and 50+ light sources on large scenes.
 - Adaptive GPU FPS - Stops the canvas redraws when no changes occurred in the scene, reduces GPU usage to 0% unless a token moves or the canvas is panned. Best used when disabling cursor pointers. When using this options you can set the FPS limiter to 60fps.
+
+---
+
+## Infinite Folders
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.1
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: This module creates folders and allows you to create data where it shouldn't be. If a future FVTT update enforces the 2-depth limit on the server side, then all of the deeper folders and their content may be lost.
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-infinite-folders](https://github.com/kakaroto/fvtt-module-infinite-folders)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-infinite-folders/master/infinite_folders/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-infinite-folders/master/infinite_folders/module.json)
+
+### Description
+This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
 
 ---
 
@@ -412,622 +417,107 @@ This module adds the 'Slashing' weapon quality as well as the expanded weapons f
 
 ---
 
-# Foundry VTT Modules (Defunct)
+# Defunct Foundry VTT Modules
 
 Foundry VTT modules that no longer work are noted here. Modules included here have been defunct for at least one month. This exists to help document previous work on Foundry Virtual Tabletop by the community, as well as to exist as a record for anyone who chooses to remain on a previous version of Foundry VTT.  
 
-## Always Show Notes (see Show Notes for successor)
 
-* **Author**: Pin#8969
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.5
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: N/A
-* **Module Conflicts**: No known conflicts
-* **Translation Support**: EN (full)
+## Integrated into Core
 
-### Link(s) to Module
-* [https://github.com/Pingar5/alwaysshownotes](https://github.com/Pingar5/alwaysshownotes)
-* [https://raw.githubusercontent.com/Pingar5/alwaysshownotes/master/alwaysshownotes/module.json](https://raw.githubusercontent.com/Pingar5/alwaysshownotes/master/alwaysshownotes/module.json)
+These are modules which have had their functionality merged into core.
 
-### Description
-Sets the Display Notes toggle to true by default
+- Arcane Viewing
+- Better FilePicker
+- Entity Order
+- GM Roll Message
+- Mother, May I?
+- Journal Drag
+- Tiles Browser
+- Z Order
+- ZoomKey
+
+### Integrated into Core DND5E System
+
+- Polymorpher
+- SRD Bestiary Module
+
+## Integrated into other Modules
+
+These modules have either been directly subsumed by other modules, or discontinued by their original authors and a new module with the same/similar functionality has arisen to take its place.
+
+| Defunct Module | Successor |
+|---|---|
+| [Always Show Notes](https://github.com/Pingar5/alwaysshownotes) | [Show Notes](https://foundryvtt.com/packages/foundryvtt-show-notes/) |
+| [Chat Damage Buttons](https://gitlab.com/hooking/foundry-vtt---chat-damage-buttons) | [Minor-QOL](https://foundryvtt.com/packages/minor-qol/) or [Midi-QOL](https://gitlab.com/tposney/midi-qol) |
+| [Chat Damage Buttons - Better Rolls Edition](https://github.com/syl3r86/chatdamagebuttons-betterrolls) | [BetterRolls for 5e](https://foundryvtt.com/packages/betterrolls5e/) |
+| [DDB Popper](https://github.com/death-save/ddb-popper) | [VTTA-DnDBeyond](https://foundryvtt.com/packages/vtta-dndbeyond/) |
+| [DnD Beyond Character Importer](https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer) | [VTTA-DnDBeyond](https://foundryvtt.com/packages/vtta-dndbeyond/) |
+| [Dynamic Items](https://gitlab.com/tposney/dynamicitems) | [Dynamic Effects](https://foundryvtt.com/packages/dynamiceffects/) |
+| [D&D 5e Conditions](https://github.com/trdischat/conditions5e) | [Combat Utility Belt](https://foundryvtt.com/packages/combat-utility-belt/) |
+| [Encumbrance Variant](https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e) | [Variant Encumbrance](https://foundryvtt.com/packages/VariantEncumbrance/) |
+| [FVTT-Party](https://github.com/shwill/fvtt-party) | [VTTA-Party](https://foundryvtt.com/packages/vtta-party/) |
+| [Item Sheet Buttons](https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons) | [BetterRolls for 5e](https://foundryvtt.com/packages/betterrolls5e/) or [Minor-QOL](https://foundryvtt.com/packages/minor-qol/) or [Midi-QOL](https://gitlab.com/tposney/midi-qol) |
+| [NPC Browser](https://github.com/syl3r86/npc-browser) | [Compendium Browser](https://foundryvtt.com/packages/compendium-browser/) |
+| [Request Roll](https://github.com/JacobMcAuley/request_roll) | [Let me roll that for you](https://foundryvtt.com/packages/lmrtfy/) |
+| [Roll20 NPC Importer, for 5e](https://github.com/syl3r86/roll20npcimporter) | [R20 Converter](#roll20-converter) |
+| [Spell Browser](https://github.com/syl3r86/Spell-Browser) | [Compendium Browser](https://foundryvtt.com/packages/compendium-browser/) |
+
+
+## Discontinued or Abandoned Modules
+
+We consider a module abandoned if its author has disappeared for several months and the module has clear issues with an up-to-date Foundry installation.
 
 ---
 
-## Anvil Menu
+### Anvil Menu
 
 * **Author**: Ionshard#7383 on Discord
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.7
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: N/A
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://gitlab.com/Ionshard/foundry-vtt-anvil-menu](https://gitlab.com/Ionshard/foundry-vtt-anvil-menu)
-
-### Description
-
-**UPDATE**: No longer a bundled module. But the Anvil Menu library is still usable by developers.
-
-The Anvil Menu is a library able to be used by other module developers without the need to include the anvil-menu module itself. See the README on GitLab for more information.
+* **Project**: [https://gitlab.com/Ionshard/foundry-vtt-anvil-menu](https://gitlab.com/Ionshard/foundry-vtt-anvil-menu)
+* **Description**: The Anvil Menu is a library able to be used by other module developers without the need to include the anvil-menu module itself. See the README on GitLab for more information.
 
 ---
 
-## Arcane Viewing (module integrated into core)
-
-* **Author**: KaKaRoTo#4756 (Discord). KaKaRoTo's Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto).
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.8
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN
-
-### Link(s) to Module
-* [The module is paywalled, and requires subscribing to KaKaRoTo’s Patreon.](https://www.patreon.com/posts/arcane-viewing-30918808)
-
-### Description
-Arcane Viewing adds Audio/Video conferencing support directly from within FVTT.
-
-Through the use of Arcane magic, you are able to see and hear your follow adventurers wherever they may hide! Peer through the looking glass and see the horror that grips them and hear their screams as they are attacked by a cute bunny. Huh?
-
-**Note**: This module has been deprecated as most of its functionality has now been integrated into Foundry's core. See https://www.patreon.com/posts/beta-0-4-2-notes-32265287
-
----
-
-## Better FilePicker
-
-**Note**: This module has been deprecated as most of its functionality has now been integrated into Foundry's core.
-
-* **Author**: Adriannom#0237 (Discord).
-* **Version**: 0.1.3
-* **Foundry VTT Compatibility**: 0.4.4+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: Image Previewer
-* **Translation Support**: EN, IT
-
-### Link(s) to Module
-* [https://github.com/Adriannom/fvtt-better-filepicker](https://github.com/Adriannom/fvtt-better-filepicker) 
-* Manifest: [https://raw.githubusercontent.com/Adriannom/fvtt-better-filepicker/master/module.json](https://raw.githubusercontent.com/Adriannom/fvtt-better-filepicker/master/module.json)
-
-### Description
-Toggle image thumbnails in the file picker. Also improves file picker visibility on small screens.
-
----
-
-## Chat Colors & More (discontinued)
-
-* **Author**: Letheka
-* **Foundry VTT Compatibility**: 0.5.3+
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-
-### Link(s) to Module
-* [https://gitlab.com/lethekazhorai/chat-colors-and-more](https://gitlab.com/lethekazhorai/chat-colors-and-more)
-* [https://gitlab.com/lethekazhorai/chat-colors-and-more/-/raw/master/module.json](https://gitlab.com/lethekazhorai/chat-colors-and-more/-/raw/master/module.json)
-
-### Description
-This module allows players to set custom colors for different types of chat messages (IC speech, emotes, rolls, and all other messages) in the Module Settings. Players can also specify a default chat prefix, which will be prefixed to all their chat messages that are not already commands. 
-
-![Screenshot](https://gitlab.com/lethekazhorai/chat-colors-and-more/-/raw/master/ChatColors_Example.PNG?inline=true "Screenshot")
-
----
-
-## Chat Damage Buttons (obsolete to minor-qol)
-
-* **Author**: hooking#0492 on Discord.
-* **Version**: 0.3.1
-* **Foundry VTT Compatibility**: 0.4.0+
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s): None.
-* **Module Conflicts**: Module appears to be incompatible with the aDnD5e module.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://gitlab.com/hooking/foundry-vtt---chat-damage-buttons](https://gitlab.com/hooking/foundry-vtt---chat-damage-buttons)
-* [https://gitlab.com/hooking/foundry-vtt---chat-damage-buttons/blob/master/module.json](https://gitlab.com/hooking/foundry-vtt---chat-damage-buttons/blob/master/module.json)
-
-### Description
-This module replaces the right-click context menu with buttons on the dice-roll chat message. This allows for quicker application of damage/healing.
-
-To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
-
----
-
-## Chat Damage Buttons - Better Rolls Edition
-
-* **Discontinued**: The functionality has been added to the core features of Better Rolls
-* **Author**: Felix#6196 and hooking#0492
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: written for and tested on v0.3.6
-* **Module Requirement(s)**: [Better Rolls for 5e](https://github.com/RedReign/FoundryVTT-BetterRolls5e) by RedReign
-* **Module Conflicts**: none known.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/chatdamagebuttons-betterrolls](https://github.com/syl3r86/chatdamagebuttons-betterrolls)
-* [https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json](https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json)
-
-### Description
-A small module to add "Apply Damage" buttons to Red Reigns Better Rolls 5e Module, based on hookings Chat Damage Buttons.
-To install use the following link in Foundrys Module Setup https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json
-
----
-
-## Critical Fumble
-
-* **Author**: Jacob McAuley Discord: @JacobMcAuley3461
-* **Version**: 0.5.0
-* **Foundry VTT Compatibility**: 0.4.3
-* **System Compatibility (If applicable)**: DnD5e
-* **Module Requirement(s)**: None
-* **Module Conflicts**: Any module that overrides Dice5e.roll()
-* **Translation Support**: EN (Full)
-
-### Link(s) to Module
-* [https://github.com/JacobMcAuley/critical-fumble](https://github.com/JacobMcAuley/critical-fumble)
-* [https://github.com/JacobMcAuley/critical-fumble/raw/master/module.json](https://github.com/JacobMcAuley/critical-fumble/raw/master/module.json)
-
-### Description
-Do you find yourself forgetting to roll on the critical hit table? The critical fumble table? Do you find yourself forgetting to roll that pesky loot table after each monster dies?
-
-Then you're like me and this mod is what you need! Critical-fumble will automatically roll on the critical hit tables in the event of a critical hit! Each hit rolls a special table depending on the type of damage.
-
-Additionally, every time a targeted monster is felled by your players, the CR table is rolled! To further your convience, the coins dropped can be automatically distributed to your players. This option can be ignored though!
-
----
-
-## DDB Popper (use VTTA-DNDBEYOND instead)
-
-* **Author**: errational#2007 on discord
-* **Version**: 1.1
-* **Foundry VTT Compatibility**: 0.3.7
-* **System Compatibility (If applicable)**: dnd5e
-* **Module Requirement(s)**: N/A
-* **Module Conflicts**: N/A
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
-* [https://raw.githubusercontent.com/death-save/ddb-popper/master/module.json](https://raw.githubusercontent.com/death-save/ddb-popper/master/module.json)
-
-### Description
-Opens a D&D Beyond popup for a linked actor.    
-More info here: [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
-
----
-
-## DnD Beyond Character Importer (non-functional -- use VTTA-D&D Beyond Integration instead)
-
-* **Author**: @Sillvva#2532 on Discord.
-* **Version**: 0.19
-* **Foundry VTT Compatibility**: 0.3+ (See Description)
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None.
-* **Module Conflicts**: None, but see description.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer](https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer) 
-
-### Description
-This module allows you to import character data from DnD Beyond into Foundry Virtual Tabletop.  
-
-The module has not been updated recently by its creator, but the community has produced a fix for this issue.  The fix is not included in the zip file for the module, but is instead contained within the Github repository, and must be retrieved there. Replace the file in the module folder with the fixed version.
-
----
-
-## Dynamic Items (obsolete to dynamic effects)
-
-**This module is obsolete and replaced with dynamic effects**  
-
-* **Author**: @tposney discord
-* **Version**: 0.0.45
-* **Foundry VTT Compatibility**: 0.4.4+ dnd 5e 0.80+. Requires 0.4.4+ and wont work with earlier versions.
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None that I know of
-* **Translation Support**: English.
-* **Translation Support**: Japanese. Kindly provided by @BrotherSharp
-
-### Link(s) to Module
-* [https://gitlab.com/tposney/dynamicitems](https://gitlab.com/tposney/dynamicitems)
-* [https://gitlab.com/tposney/dynamicitems/raw/master/module.json](https://gitlab.com/tposney/dynamicitems/raw/master/module.json)
-* [https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip](https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip)
-
-### Description
-Dynamic items are ones that makes changes to your stats/modifiers when they are active in your inventory. This module is really intended for player characters and NPCs that have linked tokens.
-
-* Armor and shields now update your armor class when equipped and reverse the change when unequipped. (this happens automatically once the module is turned on and the items are equipped). Armor can have dynamic properties, e.g. ac+2 which can require attunement. Dexterity bonuses are added to AC up to the max dex mod specified in the armor.
-* Rings of protection can increase saves or armor class when active, again changes are reversed when unequiped or unattuned (if that is a word).
-* There is a straightforward ui to make changes/create items For more complex changes (e.g. AC based on dex mod, you need to know the attribute specification, e.g. data.avilities.dex.mod)
-* Dynamic effects can be applied to any item, weapons/backpacks/armor/feats, in addition to its normal properties.
-* as of 0.8 new bonus fields, like attacks, weapon damage and saves/checks can be added as strings. So +1d4 on saving throws for bless.
-Please see the module link for documentation.
-
----
-
-## D&D 5e Conditions (obsolete to CUB)
-
-* **Author**: trdischat#2123 on Discord.
-* **Version**: 0.4.5
-* **Foundry VTT Compatibility**: 0.4.5+
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/trdischat/conditions5e](https://github.com/trdischat/conditions5e)
-* [https://raw.githubusercontent.com/trdischat/conditions5e/master/module.json](https://raw.githubusercontent.com/trdischat/conditions5e/master/module.json)
-
-### Description
-Alter the icons in the Status Effects panel of the Token Hub to reflect the standard "conditions" in D&D 5e, and repurpose the effects overlay to display whether the token is seriously wounded, unconscious, or dead.
-
----
-
-## Encumbrance Variant
-
-* **Obsolete replaced by VariantEncumbrance**
-* **Author**: hooking#0492 on Discord.
-* **Version**: 0.14
-* **Foundry VTT Compatibility**: 0.2.8-0.2.10
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
-* **Module Requirement(s)**: None.
-* **Module Conflicts**: None currently known.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e](https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e)
-* [https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e/blob/master/module.json](https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e/blob/master/module.json)
-
-### Description
-This module modifies how the encumbrance bar in the actor sheet is displayed to distinguish the different levels of encumbrance when using the variant rules in **PHB pg. 175**. It does not currently support the Powerful Build feature, as doing so would require extending the base Actor5eSheet class.
-
----
-
-## Entity Order
-
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.4.0+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-entityorder](https://github.com/kakaroto/fvtt-module-entityorder)
-* [https://raw.githubusercontent.com/kakaroto/fvtt-module-entityorder/master/entityorder/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-entityorder/master/entityorder/module.json)
-
-### Description
-This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
-
----
-
-## FVTT-Party (Discontinued, see VTTA-Party for an successor)
-
-* **Author**: @solfolango77#0880 on Discord.
-* **Version**: 0.1
-* **Foundry VTT Version Compatibility**: 0.3+
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known, although module is a WIP.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/shwill/fvtt-party](https://github.com/shwill/fvtt-party)
-* [https://github.com/shwill/fvtt-party/raw/master/module.json](https://github.com/shwill/fvtt-party/raw/master/module.json)
-
-### Description
-This module adds a convenient button to the actor’s tab, which will track the HP, AC, and Passive Perception, Investigation, and Insight of tokens on the Canvas. Currently a WIP, and may exhibit some bugs.
-
-To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
-
----
-
-## GM Roll Message
-
-* **Author**: Hydroxi#0366 on Discord.
-* **Version**: WIP
-* **Foundry VTT Compatibility**: 0.3+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/Hydroxi/gmrollmessage](https://github.com/Hydroxi/gmrollmessage)
-* [https://github.com/Hydroxi/gmrollmessage/raw/master/module.json](https://github.com/Hydroxi/gmrollmessage/raw/master/module.json)
-
-### Description
-Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
-
----
-
-## Infinite Folders
-
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.1
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: This module creates folders and allows you to create data where it shouldn't be. If a future FVTT update enforces the 2-depth limit on the server side, then all of the deeper folders and their content may be lost.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-infinite-folders](https://github.com/kakaroto/fvtt-module-infinite-folders)
-* [https://raw.githubusercontent.com/kakaroto/fvtt-module-infinite-folders/master/infinite_folders/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-infinite-folders/master/infinite_folders/module.json)
-
-### Description
-This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
-
----
-
-## Item Sheet Buttons (obsolete to minor-qol)
-
-* **Author**: hooking#0492 on Discord.
-* **Version**: 0.13
-* **Foundry VTT Compatibility**: 0.2.8-0.2.10
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None.
-* **Module Conflicts**: None currently known, but according to Github page may be prone to breaking in the future.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons](https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons)
-* [https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons/blob/master/module.json](https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons/blob/master/module.json)
-
-### Description
-This module adds item card buttons into the description of items, so that the item cards do not need to be pinged in chat. It does have the side effect of making it harder to ping item descriptions within chat.
-
-To install, download the zip file included in the Github module directory. Extract the zip folder to `/public/modules`. Restart Foundry Virtual Tabletop.
-
----
-
-## Journal Drag
-
-* **Author**: @tposney - discord
-* **Version**: 0.4.1
-* **Foundry VTT Compatibility**: 0.4+
-* **Obsolete as of version Foundry 0.4.2. of core. Please uninstall the module once updated to 0.4.2**
-
----
-
-## Mother, May I? (Core Permission Setting)
-
-* **Author**: Deuce#8801 on Discord.
-* **Version**: 0.0.1
-* **Foundry VTT Compatibility**: 0.4.4+
-* **Translation Support**: None
-
-### Link(s) to Module
-* [https://github.com/RealDeuce/mother-may-i/](https://github.com/RealDeuce/mother-may-i/)
-* [https://raw.githubusercontent.com/RealDeuce/mother-may-i/master/module.json](https://raw.githubusercontent.com/RealDeuce/mother-may-i/master/module.json)
-
-### Description
-Allows trusted players to drag items and actors they own to the canvas as long as a GM is logged in.
-
----
-
-## NPC Browser 
-
-* discontinued. functionality moved to Compendium Browser
-* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
-* **Version: 0.1**
-* **Foundry VTT Compatibility**: 0.3.0  (discontinued, use Compendium Browser instead)
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/npc-browser](https://github.com/syl3r86/npc-browser)
-
-### Description
-This module adds a search interface for actors. This enables more comfortable browsing and searching via predefined filters like challenge rating, type or ability score.
-
----
-
-## Polymorpher
-
-* Obsolte because its functionality has been merged to the core dnd5e system
-* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
-* **Version**: 0.3.5
-* **Foundry VTT Compatibility**: 0.4.4+
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th edition.
-* **Module Requirement(s)**: None.
-* **Module Conflicts**: Previous version of the module deleted actors, do not use v0.1.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/polymorpher](https://github.com/syl3r86/polymorpher)
-* [https://raw.githubusercontent.com/syl3r86/polymorpher/master/module.json](https://raw.githubusercontent.com/syl3r86/polymorpher/master/module.json)
-
-### Description
-A module for Foundry VTT that lets you polymorph characters into any other character! Just drag any Actor (NPC or Character) on top of another Actor to change the later into the prior. Support dropping both from Compendium or the sidebar.
-
----
-
-## Request Roll (obsolete to LMRTFY)
-
-* **Author**: Jacob McAuley Discord: @JacobMcAuley3461
-* **Version**: 1.0.0
-* **Foundry VTT Compatibility**: 0.4.3
-* **System Compatibility (If applicable)**: DnD5e
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known
-* **Translation Support**: EN (Full)
-
-### Link(s) to Module
-* [https://github.com/JacobMcAuley/request_roll](https://github.com/JacobMcAuley/request_roll)
-* [https://github.com/JacobMcAuley/request_roll/raw/master/module.json](https://github.com/JacobMcAuley/request_roll/raw/master/module.json)
-
-### Description
-Request Roll is a module designed to help Gamemasters speed up the rolling process by requesting rolls from PCs. This can help reduce player navigation time, questions about where a roll is located, and other unforseen delays that cause chokepoitns in your game. You can select from a range of options varying from hidden rolls, where only the gm knows, to rolls with advantage or disadvantage! Consider installing this module to speed along your game!
-
----
-
-## Roll20 NPC Importer, for 5e
-
-* **Depreicated**: No longer recieves updates. See R20 Converter here for similar functionality @ [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
-* **Version**: Roll20 NPC Importer 5e v0.5.1
-* **Foundry VTT Compatibility**: 0.3.0
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None.
-* **Module Conflicts**: None known.
-* **Translation Support**: EN (full), JA (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/roll20npcimporter](https://github.com/syl3r86/roll20npcimporter)
-* [https://raw.githubusercontent.com/syl3r86/roll20npcimporter/master/roll20npcimporter/module.json](https://raw.githubusercontent.com/syl3r86/roll20npcimporter/master/roll20npcimporter/module.json)
-
-### Description
-This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/). This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets. This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into `/public/modules`, and then restart Foundry while it is running.
-
----
-
-## Roll Table Buttons (defunct)
-
-* **Author**: RaySSharma#4736 on Discord
-* **Version**: 0.3.1
-* **Foundry VTT Compatibility**: 0.4.4+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/RaySSharma/foundry-modules/tree/master/rolltable-buttons](https://github.com/RaySSharma/foundry-modules/tree/master/rolltable-buttons)
-* [https://raw.githubusercontent.com/RaySSharma/foundry-modules/master/rolltable-buttons/rolltable-buttons/module.json](https://raw.githubusercontent.com/RaySSharma/foundry-modules/master/rolltable-buttons/rolltable-buttons/module.json)
-
-### Description
-This module adds a button to the chat controls for easier access to rolltables. Came about as a way to add critical-hit decks for players.
-
----
-
-## Spell Browser 
-
-* discontinued. functionality moved to Compendium Browser
-* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de.
-* **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.3.0 (discontinued, use Compendium Browser instead)
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known.
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/Spell-Browser](https://github.com/syl3r86/Spell-Browser)
-
-### Description
-This module adds a search interface for spells. This enables more comfortable browsing and searching via predefined filters like spell level, class or damage type.
-
----
-
-## SRD Bestiary Module
-
-* Obsolte because its functionality has been merged to the core dnd5e system
-* **Author**: DestinyGrey#2890, also known as “The_Entire_Eurozone”.  
-* **Version**: 0.2
-* **Foundry VTT Compatibility**: 0.2.8+
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None, though it is compatible and has optional sorting tags for the Better NPC Sheet 5E module, as well as the aDnD5e module.  
-* **Module Conflicts**: None (currently).  
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://drive.google.com/file/d/1oHMQhKuV-Vpdg5ftWTMaGZg76MVngZqO/view?usp=sharing](https://drive.google.com/file/d/1oHMQhKuV-Vpdg5ftWTMaGZg76MVngZqO/view?usp=sharing)
-
-### Description
-This module includes each SRD NPC in 5th edition, imported into Foundry VTT. This includes all of their features, immunities/resistances/vulnerabilities, actions, and much, much more.  Other than lacking token images (token images do not appear to be part of the SRD), each NPC is built and ready for use in Foundry Virtual Tabletop.  Included in the module is a folder containing each individual NPC json, in case you wish to experiment with importing them, or future updates break the NPCs in this module. These can be imported individually using the Roll20 NPC Importer, for 5e module.  
-
-Future updates will include edits to the imports to bring them in line with “good practice” for Foundry NPCs.
-
-To install, simply extract the zip file into `/public/modules`, enable the module in Foundry, and then do a full restart in order to display the compendium.
-
----
-
-## Theatre Inserts
-
-* **Noah Zorbaugh, U~man**: U~man#2374, contributions are welcome
-* **Version**: 0.1.6
-* **Foundry VTT Compatibility**: 0.5
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known
-* **Translation Support**: English, French, Japanese, Korean, Portuguese, Thaï
-
-### Link(s) to Module
-* [https://gitlab.com/NoahZorbaugh/theatre](https://gitlab.com/NoahZorbaugh/theatre) 
-* Manifest: [https://gitlab.com/mesfoliesludiques/theatre/-/raw/master/module.json](https://gitlab.com/mesfoliesludiques/theatre/-/raw/master/module.json)
-
-### Description
-Theatre is a mod that allows for a visual novel style RP experience for text, and text-voice hybrid games. The primary function of Theatre is to allow for graphical 'theatre-inserts' or 'standin-graphics' to appear on screen with an accompanying area for text beneath them. This follows the style of visual novels, and even provides a means to animate or decorate the text as it appears in the below box. It also provides an emote system to allow users to configure different graphics for the various emotive expressions. Most of the emotes additionally have a built in 'emote animation' that occurs when the emote is selected, which can be toggled off globally if undesired.
-
-Instructions at [https://gitlab.com/Ayanzo/theatre/-/wikis/home](https://gitlab.com/Ayanzo/theatre/-/wikis/home)
-
----
-
-## Tiles Browser (in Core)
+### Chat Autoloader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Translation Support**: EN (full)
-* **Foundry VTT Compatibility**: 0.4.2+
-### Link(s) to Module
-* [https://gitlab.com/moerills-fvtt-modules/tiles-browser/](https://gitlab.com/moerills-fvtt-modules/tiles-browser/)
-* [https://gitlab.com/moerills-fvtt-modules/tiles-browser/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/tiles-browser/raw/master/module.json)
-
-### Description
-Adds a browser to the tiles layer to conveniently preview and then drag and drop tiles onto the scene. Providing additional features to manipulate tile rotation and size while dragging.
+* **Project**: [https://gitlab.com/moerills-fvtt-modules/chat-autoloader](https://gitlab.com/moerills-fvtt-modules/chat-autoloader)
+* **Description**: This module improves loading times by only rendering the last few chat messages at page load.
 
 ---
 
-## Z Order
+### Chat Colors & More
 
-* Obsolte because its functionality has been merged to the core
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-zorder](https://github.com/kakaroto/fvtt-module-zorder)
-* [https://raw.githubusercontent.com/kakaroto/fvtt-module-zorder/master/zorder/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-zorder/master/zorder/module.json)
-
-### Description
-This Foundry VTT module lets you send tiles to the front or the back of the scene.
+* **Author**: Letheka
+* **Project**: [https://gitlab.com/lethekazhorai/chat-colors-and-more](https://gitlab.com/lethekazhorai/chat-colors-and-more)
+* **Description**: This module allows players to set custom colors for different types of chat messages.
 
 ---
 
-## ZoomKey
+### Critical Fumble
 
-* Obsolte because its functionality has been merged to the core
-* **Author**: U~man#2374, contributions are welcome
-* **Version**: 0.2.1
-* **Foundry VTT Compatibility**: 0.4.x
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known
-* **Translation Support**: No text
-
-### Link(s) to Module
-* [https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey](https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey) 
-* [https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey/-/raw/master/zoomkey/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey/-/raw/master/zoomkey/module.json) 
-
-### Description
-Adds hotkeys for zooming and panning on the canvas without mousewheel
-- Zooming in: Page Up or Ctrl + '+'
-- Zooming out: Page Down or Ctrl + '-'
-- Panning : Ctrl + arrows
+* **Author**: Jacob McAuley Discord: @JacobMcAuley3461
+* **Project**: [https://github.com/JacobMcAuley/critical-fumble](https://github.com/JacobMcAuley/critical-fumble)
+* **Description**: Critical-fumble will automatically roll on the critical hit tables in the event of a critical hit!
 
 ---
+
+
+### Roll Table Buttons
+
+* **Author**: RaySSharma#4736 on Discord
+* **Project**: [https://github.com/RaySSharma/fvtt-rolltable-buttons/tree/84c2634e31c084cf0f87614fa43257c1c2f9fe32](https://github.com/RaySSharma/fvtt-rolltable-buttons/tree/84c2634e31c084cf0f87614fa43257c1c2f9fe32)
+* **Description**: This module adds a button to the chat controls for easier access to rolltables. Came about as a way to add critical-hit decks for players.
+
+---
+
+### Theatre Inserts
+
+* **Noah Zorbaugh, U~man**: U~man#2374, contributions are welcome
+* **Project**: [https://gitlab.com/NoahZorbaugh/theatre](https://gitlab.com/NoahZorbaugh/theatre)
+* **Description**: Theatre is a mod that allows for a visual novel style RP experience for text, and text-voice hybrid games.
+
+---
+
 # Appendix
 ## Appendix A: Best Editing Practices
 
